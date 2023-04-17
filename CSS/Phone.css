@@ -1,0 +1,91 @@
+html{
+    font-size: 50%;
+}
+
+#nav-bar{
+    display: none;
+}
+
+#NavPhone23{
+    display: block;
+}
+#Login {
+    height: clamp(780px,117vh,780px);
+}
+#container {
+    flex-direction: column;
+    height: clamp(780px,100vh,780px);
+    margin-bottom: 0rem;
+}
+ul li {
+    font-size: 2.7rem;
+}
+
+#Forget {
+    font-size: 1rem;
+}
+
+.B1_left{
+    animation: B1_left 1.3s both;
+}
+@keyframes B1_left {
+    100%{
+        transform: translateY(100%);
+    }
+    
+}
+.B2_right{
+   animation: B2_right 1.3s both;
+}
+@keyframes B2_right {
+    100%{
+        transform: translateY(-100%);
+    }
+    
+}
+
+/* The Box1 moves to right and Box2 moves to left */
+.B1_right{
+    animation: B1_right 1s both;
+}
+@keyframes B1_right {
+    0%{
+        transform: translateY(100%);
+    }
+    
+}
+.B2_left{
+    animation: B2_left 1s both;
+}
+@keyframes B2_left {
+    0%{
+        transform: translateY(-100%);
+    }
+    
+}
+
+/* Contant */
+.Contant_right{
+    animation: Cright 1.3s both ;
+    animation-delay: 0.3s;
+}
+@keyframes Cright {
+    0%{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    
+}
+.Contant_left{
+    animation: Cleft 1.3s both ease-out;
+    animation-delay: 0.2s;
+}
+@keyframes Cleft {
+    0%{
+        opacity: 0;
+        transform: translateY(-200px);
+        
+    }
+    
+}
+

@@ -1,0 +1,43 @@
+#First_footer{
+    width: clamp(300px,100%,100%);
+    height: clamp(300px,40vh,301px);
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+}
+.Foot1{
+    width: clamp(300px,50vw,759px);
+    height: clamp(301px,100%,301px);
+}
+.Foot1 h1{
+    font-weight: 100;
+    margin-left: 2rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #3a3a3a;
+    color: #ffffff;
+}
+
+#email{
+    border: none;
+}
+
+.Foot1 h1:nth-child(1){
+    width: clamp(130px,13vw,199px);
+}
+.Foot1 h1:nth-child(2){
+    width: clamp(110px,10vw,153px);
+}
+.Foot1 h1:nth-child(3){
+    width: clamp(120px,11vw,168px);
+}
+.Foot1 h1:nth-child(4){
+    width: clamp(140px,16vw,245px);
+}
+
+#container_footer{
+    width: clamp(300px,100%,1980px);
+    height: clamp(300px,40vh,301px);
+    display: flex;
+}

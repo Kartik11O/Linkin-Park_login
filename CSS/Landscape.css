@@ -1,0 +1,52 @@
+@media all and (min-device-width:600px) and (max-device-width: 1200px) and (orientation: landscape){
+    
+    html{
+        font-size: 50%;
+    }
+
+    #container {
+        height: clamp(331px,85vh,331px);
+        width: clamp(541px,66vw,1013px);
+    }
+
+    .Size {
+        height: clamp(331px,85vh,331px);
+    }
+
+    input {
+        width: clamp(172px,18vw,276px);
+        height: clamp(38px,7vh,52px);
+    }
+    
+    .Btn {
+        width: clamp(231px,22vw,325px);
+        height: clamp(42px,9vh,65px);
+    }
+
+    .Login {
+        width: clamp(182px,14vw,203px);
+        height: clamp(35px,7vh,50px);
+    }
+
+    ul li {
+        font-size: 3rem;
+    }
+
+    #Forget {
+        font-size: 1rem;
+    }
+
+    ul li a {
+        width: clamp(40px,40px,41px);
+        height: clamp(40px,40px,41px);
+        line-height: 40px !important;
+    }
+
+    @keyframes Cright {
+        0%{
+            opacity: 0;
+            transform: translateX(90px);
+        }
+        
+    }
+}
